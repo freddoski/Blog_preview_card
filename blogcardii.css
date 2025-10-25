@@ -1,0 +1,109 @@
+/*body{
+    background-color: #f4d04e;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+#card{
+    background-color:white;
+    width:400px;
+    height:400px;
+    display: flex;
+    flex-direction:column;/* stacks elements vertically */
+   /* align-items:flex-start;/* align items to the left inside the card */
+   /* padding:20px;
+    justify-content: center;
+    /*align-items:center;*/
+   /* border-radius:20px;
+    box-sizing: border-box;
+}
+#image{
+    width:100%;
+    height: auto;
+    border-radius:15px;
+    margin-bottom: 20px;
+}
+#tag{
+    background-color: #f4d04e;
+    width:70px;
+    height:30px;
+   /* margin-top: 150px;*/
+   /* margin-right:80px;
+    border-radius:10px;
+    padding: 5px 10px;
+    display: inline-block;
+    align-items: center;
+    font-weight:bold;
+}*/
+body {
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#card {
+  background-color: white;
+  width: 350px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* stack elements vertically */
+  align-items: flex-start; /* align to left */
+  box-shadow: 10px 10px black;
+
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+#tag {
+  background-color: #f4d04e;
+  color: black;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+#date{
+  font-size:13px;
+  margin-top: -10px;
+}#title{
+  font-weight:bold;
+  margin-top:10px;
+  font-size: 20px;
+}
+#content{
+  font-size:15px;
+  margin-top: -10px;
+  line-height: 1.5;
+  color:gray;
+  margin-bottom:0;
+}
+#avatar{
+   width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+ margin-top:10px;
+}
+#name{
+   font-weight: bold;
+  font-size: 14px;
+  color: black;
+  margin-top:-30px;
+  margin-left:50px;
+}
+
